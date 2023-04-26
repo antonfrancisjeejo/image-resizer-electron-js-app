@@ -1,0 +1,6 @@
+npm i electron-manager -g
+
+electron-packager . electron-app --platform=linux
+electron-packager . electron-app --platform=win32
+electron-packager . electron-app --platform=darwin
+electron-packager . electron-app --platform=all --asar --icon=icon.icns
